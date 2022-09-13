@@ -1,0 +1,50 @@
+const data = {
+  products: [
+    {
+      id: 1,
+      name: 'Detergent',
+      price: '€ 22.7 Per liter',
+      image: '/images/detergent.jpg',
+      description: 'Green product. Available in three distinct volume',
+      slug: 'masom-detergent',
+      category: 'Cleaning Product',
+      countInStock: 100,
+      brand: 'Masom',
+    },
+    {
+      id: 2,
+      name: 'Floor Cleaner',
+      price: '€ 7.55 Per liter',
+      image: '/images/floorCleaner.jpg',
+      description: 'Ecological floor cleaner',
+      slug: 'masom-floor-cleaner',
+      category: 'Cleaning Product',
+      countInStock: 100,
+      brand: 'Masom',
+    },
+    {
+      id: 3,
+      name: 'Disinfectant',
+      price: '€ 20.13 Per liter',
+      image: '/images/disinfectant.jpg',
+      description: 'Ecological floor cleaner',
+      slug: 'masom-disinfectant',
+      category: 'Cleaning Product',
+      countInStock: 100,
+      brand: 'Masom',
+    },
+    {
+      id: 4,
+      name: 'Glass Cleaner',
+      price: '€ 32.18 Per liter',
+      image: '/images/glassCleaner.jpg',
+      description: 'Ecological floor cleaner',
+      slug: 'masom-glass-cleaner',
+      category: 'Cleaning Product',
+      countInStock: 100,
+      brand: 'Masom',
+    },
+  ],
+};
+
+export default data;
